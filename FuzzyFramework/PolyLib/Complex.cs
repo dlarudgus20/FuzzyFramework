@@ -494,7 +494,10 @@ namespace PolyLib
 
         public override int GetHashCode()
         {
-            return -1;
+            unchecked
+            {
+                return Im.GetHashCode() * 16777619 + Re.GetHashCode();
+            }
         }
 
         #endregion

@@ -838,6 +838,20 @@ namespace PolyLib
             return (this.ToString() == ((Polynomial)obj).ToString());
         }
 
+        public override int GetHashCode()
+        {
+            unchecked
+            {
+                int hash = (int)2166136261;
+                foreach (var cof in Coefficients)
+                {
+                    hash = (hash * 16777619) ^ cof.GetHashCode();
+                }
+                hash = (hash * 16777619) ^ Degree;
+                return hash;
+            }
+        }
+
         #endregion
 
         #region structs
