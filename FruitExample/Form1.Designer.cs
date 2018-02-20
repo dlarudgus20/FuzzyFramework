@@ -1,4 +1,4 @@
-﻿namespace FruitExample
+namespace FruitExample
 {
     partial class Form1
     {

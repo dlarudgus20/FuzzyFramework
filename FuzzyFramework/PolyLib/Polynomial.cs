@@ -295,7 +295,7 @@ namespace PolyLib
             //Polynomial q = p;
 
             Complex[] z = new Complex[q.Degree]; // approx. for roots
-            Complex[] w = new Complex[q.Degree]; // Weierstraﬂ corrections
+            Complex[] w = new Complex[q.Degree]; // Weierstra?corrections
 
             // init z
             for (int k = 0; k < q.Degree; k++)
@@ -337,7 +337,7 @@ namespace PolyLib
             Polynomial q = Normalize(this);
 
             Complex[] z = new Complex[q.Degree]; // approx. for roots
-            Complex[] w = new Complex[q.Degree]; // Weierstraﬂ corrections
+            Complex[] w = new Complex[q.Degree]; // Weierstra?corrections
 
             // init z
             for (int k = 0; k < q.Degree; k++)
@@ -463,7 +463,7 @@ namespace PolyLib
             //Polynomial q = p;
 
             Complex[] z = new Complex[q.Degree]; // approx. for roots
-            Complex[] w = new Complex[q.Degree]; // Weierstraﬂ corrections
+            Complex[] w = new Complex[q.Degree]; // Weierstra?corrections
 
             // init z
             for (int k = 0; k < q.Degree; k++)
@@ -505,7 +505,7 @@ namespace PolyLib
             Polynomial q = Normalize(p);
 
             Complex[] z = new Complex[q.Degree]; // approx. for roots
-            Complex[] w = new Complex[q.Degree]; // Weierstraﬂ corrections
+            Complex[] w = new Complex[q.Degree]; // Weierstra?corrections
 
             // init z
             for (int k = 0; k < q.Degree; k++)
