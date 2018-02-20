@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FuzzyFramework.Sets.UniverseSet" Collapsed="true">
+    <Position X="13.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sets\UniverseSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuzzyFramework.Sets.BellSet" Collapsed="true">
+    <Position X="13" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAEAACAAAAgAACAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Sets\BellSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuzzyFramework.Sets.ContinuousSet" Collapsed="true">
+    <Position X="18.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sets\ContinuousSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuzzyFramework.Sets.DiscreteSet" Collapsed="true">
+    <Position X="20.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAABEAAAAAAAAAQAEAAAAACAEAAAAAAA=</HashCode>
+      <FileName>Sets\DiscreteSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuzzyFramework.Sets.EmptySet" Collapsed="true">
+    <Position X="15.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sets\EmptySet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuzzyFramework.Sets.FuzzySet" Collapsed="true">
+    <Position X="17.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAgAABAAAwCCAAoIAAAAACIAACAAAAAAAByA=</HashCode>
+      <FileName>Sets\FuzzySet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuzzyFramework.Sets.LeftLinearSet" Collapsed="true">
+    <Position X="23" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sets\LeftLinearSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuzzyFramework.Sets.LeftQuadraticSet" Collapsed="true">
+    <Position X="17" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sets\LeftQuadraticSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuzzyFramework.Sets.QuadraticSet" Collapsed="true">
+    <Position X="14.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAoAAAAAAAAAAAIACAIAAEIAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sets\QuadraticSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuzzyFramework.Sets.RightLinearSet" Collapsed="true">
+    <Position X="19" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sets\RightLinearSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuzzyFramework.Sets.RightQuadraticSet" Collapsed="true">
+    <Position X="14.75" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sets\RightQuadraticSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuzzyFramework.Sets.SingletonSet" Collapsed="true">
+    <Position X="23" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sets\SingletonSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuzzyFramework.Sets.TrapezoidalSet" Collapsed="true">
+    <Position X="21" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAiAIAAAAIAAAAAAAAAAIAAAIAAAAAAAAAQAEAAAAAA=</HashCode>
+      <FileName>Sets\TrapezoidalSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuzzyFramework.Sets.TriangularSet" Collapsed="true">
+    <Position X="21" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sets\TriangularSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

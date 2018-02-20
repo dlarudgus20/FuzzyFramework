@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{39015A29-4688-45B9-B52C-C6D54F287303}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FuzzyFramework</RootNamespace>
+    <AssemblyName>FuzzyFramework</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Defuzzification\CenterOfGravity.cs" />
+    <Compile Include="Defuzzification\CenterOfMaximum.cs" />
+    <Compile Include="Defuzzification\DefuzzificationFactory.cs" />
+    <Compile Include="Defuzzification\Defuzzification.cs" />
+    <Compile Include="Defuzzification\LeftOfMaximum.cs" />
+    <Compile Include="Defuzzification\MeanOfMaximum.cs" />
+    <Compile Include="Defuzzification\RightOfMaximum.cs" />
+    <Compile Include="Intervals\ConstantInterval.cs" />
+    <Compile Include="Members\ContinuousMember.cs" />
+    <Compile Include="Intervals\BinaryInterval.cs" />
+    <Compile Include="Intervals\IntervalSet.cs" />
+    <Compile Include="Members\IContinuousMember.cs" />
+    <Compile Include="Members\IDiscreteMember.cs" />
+    <Compile Include="FuzzyRelation.cs" />
+    <Compile Include="NodeFuzzyRelation.cs" />
+    <Compile Include="Operators\BinaryOperator.cs" />
+    <Compile Include="Operators\UnaryOperator.cs" />
+    <Compile Include="Operators\RSS.cs" />
+    <Compile Include="Sets\BellSet.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sets\ContinuousSet.cs" />
+    <Compile Include="Sets\RightQuadraticSet.cs" />
+    <Compile Include="Sets\LeftQuadraticSet.cs" />
+    <Compile Include="Sets\EmptySet.cs" />
+    <Compile Include="Operators\AndM.cs" />
+    <Compile Include="Operators\Intensification.cs" />
+    <Compile Include="Operators\OrM.cs" />
+    <Compile Include="Operators\AndA.cs" />
+    <Compile Include="Operators\OrA.cs" />
+    <Compile Include="Operators\AndB.cs" />
+    <Compile Include="Operators\OrB.cs" />
+    <Compile Include="Operators\Complement.cs" />
+    <Compile Include="Operators\IBinaryOperator.cs" />
+    <Compile Include="Operators\IOperator.cs" />
+    <Compile Include="Operators\IUnaryOperator.cs" />
+    <Compile Include="Sets\LeftLinearSet.cs" />
+    <Compile Include="Sets\QuadraticSet.cs" />
+    <Compile Include="Dimensions\Dimension.cs" />
+    <Compile Include="Sets\DiscreteSet.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Dimensions\IDimension.cs" />
+    <Compile Include="Members\IMember.cs" />
+    <Compile Include="Dimensions\IDiscreteDimension.cs" />
+    <Compile Include="Intervals\Interval.cs" />
+    <Compile Include="Dimensions\IContinuousDimension.cs" />
+    <Compile Include="Members\DiscreteMember.cs" />
+    <Compile Include="Exceptions.cs" />
+    <Compile Include="Sets\FuzzySet.cs" />
+    <Compile Include="Dimensions\DiscreteDimension.cs" />
+    <Compile Include="Dimensions\ContinuousDimension.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sets\RightLinearSet.cs" />
+    <Compile Include="Sets\SingletonSet.cs" />
+    <Compile Include="Sets\TrapezoidalSet.cs" />
+    <Compile Include="Sets\TriangularSet.cs" />
+    <Compile Include="Sets\UniverseSet.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="PolyLib\PolyLib.csproj">
+      <Project>{C5B61C4F-B134-4015-BB87-8454B3BDA598}</Project>
+      <Name>PolyLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Sets\FuzzySets.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
